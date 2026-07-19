@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_primary">
+
+    <!-- Back -->
+
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_width="@dimen/icon_size"
+        android:layout_height="@dimen/icon_size"
+        android:layout_margin="@dimen/padding_title"
+        android:padding="@dimen/spacing_xs"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/back"
+        android:src="@drawable/back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <!-- Shopee -->
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardShopee"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/upload_card_height"
+        android:layout_marginStart="@dimen/screen_padding"
+        android:layout_marginTop="@dimen/spacing_lg"
+        android:layout_marginEnd="@dimen/screen_padding"
+        app:cardCornerRadius="@dimen/upload_card_radius"
+        app:cardElevation="4dp"
+        app:layout_constraintTop_toBottomOf="@id/btnBack"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/upload_icon_size"
+                android:layout_height="@dimen/upload_icon_size"
+                android:contentDescription="@string/upload_shopee"
+                android:src="@drawable/success"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/upload_text_spacing"
+                android:text="@string/upload_success_shopee"
+                android:textColor="@color/success"
+                android:textSize="@dimen/text_input"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <!-- Lazada -->
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardLazada"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/upload_card_height"
+        android:layout_marginStart="@dimen/screen_padding"
+        android:layout_marginTop="@dimen/spacing_md"
+        android:layout_marginEnd="@dimen/screen_padding"
+        app:cardCornerRadius="@dimen/upload_card_radius"
+        app:cardElevation="4dp"
+        app:layout_constraintTop_toBottomOf="@id/cardShopee"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/upload_icon_size"
+                android:layout_height="@dimen/upload_icon_size"
+                android:contentDescription="@string/upload_lazada"
+                android:src="@drawable/success"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/upload_text_spacing"
+                android:text="@string/upload_success_lazada"
+                android:textColor="@color/success"
+                android:textSize="@dimen/text_input"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <!-- TikTok -->
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardTiktok"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/upload_card_height"
+        android:layout_marginStart="@dimen/screen_padding"
+        android:layout_marginTop="@dimen/spacing_md"
+        android:layout_marginEnd="@dimen/screen_padding"
+        app:cardCornerRadius="@dimen/upload_card_radius"
+        app:cardElevation="4dp"
+        app:layout_constraintTop_toBottomOf="@id/cardLazada"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/upload_icon_size"
+                android:layout_height="@dimen/upload_icon_size"
+                android:contentDescription="@string/upload_tiktok"
+                android:src="@drawable/success"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/upload_text_spacing"
+                android:text="@string/upload_success_tiktok"
+                android:textColor="@color/success"
+                android:textSize="@dimen/text_input"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <!-- Bottom Navigation -->
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        app:itemIconTint="@color/nav_item_color"
+        app:itemTextColor="@color/nav_item_color"
+        app:menu="@menu/bottom_nav_menu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

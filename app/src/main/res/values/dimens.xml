@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Screen -->
+    <dimen name="screen_padding">45dp</dimen>
+
+    <!-- Radius -->
+    <dimen name="corner_radius">12dp</dimen>
+
+    <!-- Border -->
+    <dimen name="border_width">1dp</dimen>
+
+    <!-- Input -->
+    <dimen name="input_height">56dp</dimen>
+    <dimen name="input_padding">16dp</dimen>
+
+    <!-- Button -->
+    <dimen name="button_height">56dp</dimen>
+    <dimen name="button_width_small">140dp</dimen>
+    <dimen name="button_margin_horizontal">40dp</dimen>
+    <dimen name="button_margin_top">48dp</dimen>
+
+    <!-- Typography -->
+    <dimen name="text_title">28sp</dimen>
+    <dimen name="text_subtitle">16sp</dimen>
+    <dimen name="text_label">14sp</dimen>
+    <dimen name="text_input">16sp</dimen>
+    <dimen name="text_button">16sp</dimen>
+    <dimen name="text_table">12sp</dimen>
+    <dimen name="text_loading">16sp</dimen>
+    <dimen name="title_size">24sp</dimen>
+    <dimen name="subtitle_size">16sp</dimen>
+    <dimen name="body_size">14sp</dimen>
+
+    <!-- Icons -->
+    <dimen name="icon_size">24dp</dimen>
+    <dimen name="profile_icon_size">35dp</dimen>
+    <dimen name="history_icon_size">20dp</dimen>
+    <dimen name="history_arrow_size">24dp</dimen>
+    <dimen name="loading_icon_size">64dp</dimen>
+
+    <!-- Images -->
+    <dimen name="profile_image_size">80dp</dimen>
+    <dimen name="logo_size">120dp</dimen>
+
+    <!-- Margins -->
+    <dimen name="logo_top_margin">90dp</dimen>
+    <dimen name="title_top_margin">90dp</dimen>
+
+    <!-- Cards -->
+    <dimen name="card_height">120dp</dimen>
+    <dimen name="card_padding">16dp</dimen>
+    <dimen name="history_card_radius">12dp</dimen>
+
+    <!-- Chart -->
+    <dimen name="chart_height">220dp</dimen>
+
+    <!-- Divider -->
+    <dimen name="divider_height">1dp</dimen>
+
+    <!-- OTP -->
+    <dimen name="otp_width">120dp</dimen>
+
+    <!-- Spacing System -->
+    <dimen name="spacing_xs">4dp</dimen>
+    <dimen name="spacing_sm">8dp</dimen>
+    <dimen name="spacing_md">16dp</dimen>
+    <dimen name="spacing_lg">24dp</dimen>
+    <dimen name="spacing_xl">32dp</dimen>
+    <dimen name="spacing_xxl">48dp</dimen>
+
+    <!--Upload page-->
+    <dimen name="upload_card_height">120dp</dimen>
+    <dimen name="upload_icon_size">40dp</dimen>
+    <dimen name="upload_card_radius">12dp</dimen>
+    <dimen name="upload_text_spacing">12dp</dimen>
+
+    <!--profile-->
+    <dimen name="profile_header_height">180dp</dimen>
+    <dimen name="profile_row_height">80dp</dimen>
+    <dimen name="profile_avatar_size">60dp</dimen>
+    <dimen name="profile_name_size">18sp</dimen>
+    <dimen name="profile_id_size">14sp</dimen>
+    <dimen name="profile_text_spacing">24dp</dimen>
+    <dimen name="divider_thickness">2dp</dimen>
+
+    <!--padding-->
+    <dimen name="padding_title">12dp</dimen>
+
+</resources>

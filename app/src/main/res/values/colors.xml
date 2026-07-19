@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base Colors -->
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <!-- App Background -->
+    <color name="background_primary">#12C6EF</color>
+
+    <!-- Text Colors -->
+    <color name="title_text">#1E293B</color>
+    <color name="text_primary">#000000</color>
+    <color name="text_secondary">#6E6E6E</color>
+    <color name="text_hint">#A0A0A0</color>
+    <color name="text_link">#8A3FFC</color>
+
+    <!-- Input -->
+    <color name="input_background">#FFFFFF</color>
+    <color name="input_border">#E0E0E0</color>
+
+    <!-- Primary Button -->
+    <color name="primary_blue">#3F7BFF</color>
+    <color name="primary_blue_dark">#2E5BFF</color>
+
+    <!-- Bottom Navigation -->
+    <color name="nav_selected">#3F7BFF</color>
+    <color name="nav_unselected">#808080</color>
+
+    <!-- Status -->
+    <color name="success">#4CAF50</color>
+    <color name="error">#E53935</color>
+
+    <!-- Buttons -->
+    <color name="button_start">#2563EB</color>
+    <color name="button_end">#1D4ED8</color>
+    <color name="button_text">#FFFFFF</color>
+
+</resources>

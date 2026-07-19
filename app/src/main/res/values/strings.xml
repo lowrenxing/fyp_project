@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App -->
+    <string name="app_name">MyFYP</string>
+
+    <!-- Common -->
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+
+    <string name="login">Log In</string>
+    <string name="register">Register</string>
+
+    <string name="save">Save</string>
+    <string name="submit">Submit</string>
+    <string name="back">Back</string>
+    <string name="logout">Logout</string>
+
+    <!-- Login -->
+    <string name="login_title">Sign in to your&#10;Account</string>
+
+    <string name="login_subtitle">
+        Enter your email and password to log in
+    </string>
+
+    <string name="forgot_password">
+        Forgot Password?
+    </string>
+
+    <string name="signup_prompt">
+        <string name="signup_prompt">
+    Do not have an account? Sign Up
+</string>
+    </string>
+
+    <!-- Register -->
+    <string name="signup_title">
+        Sign Up
+    </string>
+
+    <string name="signup_subtitle">
+        Create an account to continue!
+    </string>
+
+    <string name="full_name">
+        Full Name
+    </string>
+
+    <string name="birth_date">
+        Birth Date
+    </string>
+
+    <string name="email_otp">
+        Email OTP
+    </string>
+
+    <string name="set_password">
+        Set Password
+    </string>
+
+    <string name="confirm_password">
+        Confirm Password
+    </string>
+
+    <!-- Forgot Password -->
+    <string name="forgot_password_title">
+        Forgot Password
+    </string>
+
+    <string name="forgot_password_subtitle">
+        Please enter your email to reset your password
+    </string>
+
+    <string name="your_email">
+        Your Email
+    </string>
+
+    <string name="reset_password">
+        Reset Password
+    </string>
+
+    <string name="reset_password_button">
+        Reset Password
+    </string>
+
+    <!-- Change Email -->
+    <string name="change_email">
+        Change Email
+    </string>
+
+    <string name="new_email">
+        New Email
+    </string>
+
+    <string name="otp">
+        OTP
+    </string>
+
+    <string name="reset_email">
+        Reset Email
+    </string>
+
+    <!-- Change Password -->
+    <string name="change_password">
+        Change Password
+    </string>
+
+    <string name="current_password">
+        Current Password
+    </string>
+
+    <string name="new_password">
+        New Password
+    </string>
+
+    <!-- Home -->
+    <string name="compare_advertising">
+        Compare Advertising Performance
+    </string>
+
+    <string name="upload_shopee">
+        Upload Shopee CSV
+    </string>
+
+    <string name="upload_lazada">
+        Upload Lazada CSV
+    </string>
+
+    <string name="upload_tiktok">
+        Upload TikTok CSV
+    </string>
+
+    <string name="loading">
+        Processing Data...
+    </string>
+
+    <string name="generate_chart">
+        Generate Chart
+    </string>
+
+    <string name="ranking">
+        Ranking
+    </string>
+
+    <!-- Upload Success -->
+    <string name="upload_success_shopee">
+        Uploaded Shopee CSV&#10;Successfully
+    </string>
+
+    <string name="upload_success_lazada">
+        Uploaded Lazada CSV&#10;Successfully
+    </string>
+
+    <string name="upload_success_tiktok">
+        Uploaded TikTok CSV&#10;Successfully
+    </string>
+
+    <!-- Navigation -->
+    <string name="nav_main">
+        Main
+    </string>
+
+    <string name="nav_profile">
+        Profile
+    </string>
+
+    <!-- Profile -->
+    <string name="profile">
+        Profile
+    </string>
+
+    <string name="history">
+        History
+    </string>
+
+    <string name="settings">
+        Settings
+    </string>
+
+    <!-- Dynamic Text -->
+
+    <string name="email_format">
+        Email: %1$s
+    </string>
+
+    <string name="session_id_format">
+        Session ID: %1$s
+    </string>
+
+    <string name="history_date_format">
+        Date: %1$s
+    </string>
+
+    <!-- Accessibility -->
+    <string name="logo">
+        Application Logo
+    </string>
+
+    <!--date format-->
+    <string name="date_format">DD/MM/YYYY</string>
+
+    <!--otp-->
+    <string name="otp_hint">123456</string>
+
+    <string name="session_id">Session ID</string>
+    <string name="history_date">Date</string>
+
+    <!--Compare page-->
+    <string name="compare_now">Compare Now</string>"
+
+    <string name="Advertising_Data_Performance">Advertising Data Performance</string>
+
+</resources>

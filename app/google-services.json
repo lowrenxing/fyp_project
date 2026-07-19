@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "727972672423",
+    "project_id": "marketingdss-d728a",
+    "storage_bucket": "marketingdss-d728a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:727972672423:android:2bbd51e8e08745d1847c82",
+        "android_client_info": {
+          "package_name": "com.example.myfyp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZ47R1ZtZl6mBVEbOObSrecnvhRpfcjMI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
